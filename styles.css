@@ -3,10 +3,9 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fef3e2; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    display: flex;
+    align-items: center;
   }
   
   .counter {
@@ -19,6 +18,10 @@ body {
     border-radius: 10px;
     width: 80%;
     position: relative; 
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .pastry {
@@ -26,7 +29,7 @@ body {
     padding: 20px;
     border-radius: 50%;
     font-size: 18px;
-    position: absolute; 
+    position: relative; 
   }
   
   .pastry img {
